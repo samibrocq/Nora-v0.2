@@ -92,7 +92,7 @@ a::visited{
     display:none;
 }
 
-#nav-bar-logo img{
+#nav-bar-logo img, #nav-bar-logo-index img{
     width:150px;
     color:white;
     position:relative;
@@ -100,6 +100,8 @@ a::visited{
     padding:0 0 0 1rem;;
     
 }
+
+
 
 @media(max-width:750px){
     .nav-link{
