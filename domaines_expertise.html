@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    <meta charset="utf-8">
+    
+    <title></title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    
+     <script src="https://kit.fontawesome.com/11975def6d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;531;600&display=swap" rel="stylesheet">
+    
+     <link href="style.css" rel="stylesheet">
+     <link href="domaines_expertises_style.css" rel="stylesheet">
+    
+    <script src="https://use.fontawesome.com/78a3c3bb4a.js"></script>
+
+</head>
+
+<body>
+    
+    <header id='header'>
+     <nav id='nav-bar'>
+         
+          <div id='nav-bar-logo'>
+                <img src='img/logo-full-white.png'>
+            </div>
+            
+            <div id='social-networks'>
+                <ul>
+                    <li><a href='https://www.facebook.com/africawasteconsulting/'>
+                            <i class='fab fa-facebook-f'></i></a></li>
+                    <li><a href='https://www.linkedin.com/company/africa-waste-consulting-afwac/'>
+                            <i class='fab fa-linkedin'></i></a></li>
+                    <li><a href='https://www.instagram.com/africawasteconsulting/'>
+                        <i class='fab fa-instagram'></i></a></li>
+                    <li><a href='mailto:contact@africawasteconsulting.com'>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                    
+                </ul>
+            </div>
+            
+            <div id='menu' class='menu'>
+                <ul>
+                  <a class='nav-link' href='index.html'><li>Accueil</li></a>
+                  <a class='nav-link' href='domaines_expertise.html'><li>Domaines d'expertises</li></a>
+                  <a class='nav-link' href='articles.html'><li>Articles</li></a>
+                  <a class='nav-link' href='contact.html'><li>Contact</li></a>  
+                  <a class='nav-link sandwich' href='javascript:void(0)' onclick='menuFunction()' id='sandwich'><li><i class='fas fa-bars'></i></li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section id='menu-section'>
+        <div id='menu-container'>
+            <div class='menu-option' id='menu-entreprises'>
+                <a href='javascript:void(0)' onclick='showEntreprises()'>Entreprises</a></div>
+            <div class='menu-option' id='menu-collectivites'>
+                        <a href='javascript:void(0)' onclick='showCollectivites()'> Collectivités</a></div>
+            <div class='menu-option' id='menu-hopitaux'>
+                <a href='javascript:void(0)' onclick='showHopitaux()'>Hôpitaux</a></div>            
+        </div>
+    </section>
+    
+    <section id='content'>
+    
+        <div class='domain' id='entreprises'>
+
+            <div class='service-category' id='etudes-rectangle'>
+                 <h3>Etudes</h3>
+                 <ul>
+                     <li>Diagnostic déchets</li>
+                     <li>Optimisation de la gestion des déchets</li>
+                     <li>Mise en place du tri sélectif</li>
+                     <li>Mise en place de filières spécifiques de gestion des déchets</li>
+                 </ul>
+            </div>
+
+            <div class="service-category" id='formations-rectangle'>
+                <h3>Formations</h3>
+                <ul>
+                    <li>Organisation de la gestion durable des déchets</li>
+                    <li>Réduction de la production de déchets</li>
+                    <li>Eco-conception</li>
+                    <li>Traçabilité de la production des déchets</li>
+                </ul>
+            </div>
+
+            <div class='service-category' id='conseils-rectangle'>
+                <h3>Conseils</h3>
+                <ul>
+                    <li>Aide à la décision</li>
+                    <li>Assistance à maitrise d’ouvrage</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+         <div id='collectivites' class='domain'>
+
+                <div class='service-category' id='etudes-rectangle'>
+                 <h3>Etudes</h3>
+                 <ul>
+                     <li>Plan territorial de prévention et de gestion des déchets</li>
+                     <li>La production des déchets des territoires</li>
+                     <li>La composition des déchets</li>
+                     <li>Le dimensionnement des installations de propreté urbaine</li>
+                     <li>Diagnostic de la gestion actuelle des déchets</li>
+                     <li>Etudes des besoins en gestion des déchets du territoires</li>
+                     <li>Les habitudes socio-comportementales liées au déchets</li>
+                 </ul>
+            </div>
+
+            <div class="service-category" id='formations-rectangle'>
+                <h3>Formations</h3>
+                <ul>
+                    <li>Planification territoriale de la gestion des déchets</li>
+                    <li>Administration du service de suivi de la gestion des déchets</li>
+                </ul>
+            </div>
+
+            <div class='service-category' id='conseils-rectangle'>
+                <h3>Conseils</h3>
+                <ul>
+                    <li>Assistance à maitrise d’ouvrage</li>
+                    <li>Aide à la décision</li>
+                </ul>
+            </div>
+        </div>
+
+         <div id='hopitaux' class='domain'>
+             <div class='service-category' id='etudes-rectangle'>
+                 <h3>Etudes</h3>
+                 <ul>
+                     <li>Traitement des déchets hospitaliers</li>
+                     <li>Dimensionnement des besoins en gestion des déchets des hôpitaux</li>
+
+                 </ul>
+            </div>
+
+            <div class="service-category" id='formations-rectangle'>
+                <h3>Formations</h3>
+                <ul>
+                     <li>Tri et conditionnement des déchets hospitaliers</li>
+                     <li>Traitement des déchets hospitaliers</li>
+                     <li>Traçabilité des déchets hospitaliers</li>
+                </ul>
+            </div>
+
+            <div class='service-category' id='conseils-rectangle'>
+                <h3>Conseils</h3>
+                <ul>
+                    <li>Assistance à maitrise d’ouvrage</li>
+                    <li>Aide à la décision pour les appels d’offre de collecte et de traitement des déchets</li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+    
+    <div>
+        <a href=#hero id='upbutton'>
+          <i class="fas fa-chevron-up"></i>
+        </a>
+    </div>
+    <script src="script.js"></script>
+    <script src='script2.js'></script>
+</body>
+</html>
+    
